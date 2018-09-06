@@ -1,0 +1,12 @@
+/* Add comments here */
+/* Class based styling starts with . */
+/* ID based styling starts with # */
+
+.container{
+  width: 989 px;
+  margin: 0 auto; /* 0 for top and bottom while auto for left and right*/
+}
+
+html, body{
+  padding: 0;
+}
