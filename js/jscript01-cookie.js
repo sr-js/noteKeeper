@@ -65,7 +65,7 @@ function writeCookie()
     document.cookie = cname + "=" + text +";"+expiry_future;
   }
 }
-
+/*
 function getCookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
@@ -81,3 +81,4 @@ function getCookie(cname) {
   }
   return "";
 }
+*/
