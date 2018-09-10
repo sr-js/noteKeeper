@@ -2,11 +2,32 @@
 /* Class based styling starts with . */
 /* ID based styling starts with # */
 
-.container{
-  width: 989 px;
-  margin: 0 auto; /* 0 for top and bottom while auto for left and right*/
-}
-
 html, body{
   padding: 0;
+  background-color: lightcyan;
+}
+
+.container{
+  width: 989px;
+  margin: 0 auto; /* 0 for top and bottom while auto for left and right */
+  color: darkblue;
+  background-color: lightyellow;
+  }
+
+#mybox, #secondBox{
+  margin:0 auto;
+  word-break: break-all;
+  width: 50%;
+  height: 500px;
+  background-color: gold;
+  /*display: block; /* used with float and position, could be inline */
+  /*box-sizing: border-box;*/
+}
+
+#secondBox{
+  display: block;
+  border: 2px solid red;
+  height: 200px;
+  padding: 20px;
+  /*border-color: saddlebrown;*/
 }
